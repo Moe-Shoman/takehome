@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './EditModal.css'
 import { Button, Modal, Form } from 'semantic-ui-react';
+import './EditModal.css'
 
 class EditModal extends Component {
   constructor(props) {
@@ -18,6 +18,7 @@ class EditModal extends Component {
       [name] : value
     });
   }
+
   render() {
     const { title, body, userId } = this.state;
     const { closeModal, post, updatePost } = this.props;

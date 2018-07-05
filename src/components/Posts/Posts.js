@@ -31,6 +31,7 @@ class Posts extends Component {
       ]
     }));
   }
+
   render() {
     return (
       <div className="posts">

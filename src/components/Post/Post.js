@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './Post.css';
 import { Button } from 'semantic-ui-react';
 import EditModal from '../EditModal/EditModal.js';
+import './Post.css';
 
 class Post extends Component {
   constructor(props) {
