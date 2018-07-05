@@ -1,0 +1,26 @@
+.post-ctn {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.post-id {
+  width: 5%;
+}
+
+.post-title {
+  width: 50%;
+  cursor: pointer;
+}
+
+.post-user {
+  width: 15%;
+}
+
+.post-size {
+  width: 15%;
+}
+
+.head-item {
+  font-weight: 800;
+}
